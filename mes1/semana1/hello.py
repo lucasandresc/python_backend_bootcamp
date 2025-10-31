@@ -2,6 +2,7 @@ name: str = "Lucas"
 age: int = 31
 language: str = "Python"
 version: str = "3.14"
+city: str = "Ushuaia"
 
 
 def greet(name: str) -> None:
@@ -12,6 +13,7 @@ def greet(name: str) -> None:
 def show_info(name: str, age: int, language: str) -> None:
     print("\n" + "=" * 50)
     print(f"Student: {name}")
+    print(f"City: {city}")
     print(f"Age: {age} old")
     print(f"Learning: {language}")
     print("=" * 50 + "\n")
